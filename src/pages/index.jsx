@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
-import '../styles/globals.css'
 
 
 const signIn = () => {
@@ -37,7 +36,7 @@ const signIn = () => {
                     </div>
 
                     <div className="flex flex-col">
-                        <span className='text-textMd_medium mb-1'>Mật khẩu</span>
+                        <span className='text-textMd_medium mb-1'>Password</span>
                         <input placeholder='***' name='password' type='password' className='inputCus' onChange={setInfo}></input>
                     </div>
                 </div>
